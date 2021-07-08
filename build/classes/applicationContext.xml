@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- applicationContext.xml -->
+<!--
+    This file contains information for the beans.
+
+
+    Adapted from this tutorial:
+    https://www.javatpoint.com/example-of-spring-application-in-eclipse
+    
+-->
+
 <beans
         xmlns="http://www.springframework.org/schema/beans"  
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
@@ -7,6 +17,8 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans  
                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     
+    
+    <!-- This is the bean we are going to use to test this application. -->
         <bean id="testbean" class="springtest.TestBean">  
 <property name="att1" value="1"></property>  
         

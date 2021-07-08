@@ -1,12 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package springtest;
 
 /**
- *
+ * TestBean
+ * 
+ * Test Bean File that contains a bean to use within Spring.
+ * 
+ * Bean Requirements for Spring:
+ * * Default Constructor (None needed here, as we have no explicit constructors).
+ * * Getters and Setters for all attributes (we only have one).
+ * 
  * @author jrcro
  */
 public class TestBean {
